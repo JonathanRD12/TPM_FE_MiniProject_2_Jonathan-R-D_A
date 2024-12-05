@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #EDEDF9;
+    color: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    line-height: 200%;
+    color: #8484A7;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #skillInput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #EDEDF9;
+    border-radius: 5px;
+  }
+  
+  #addSkillBtn {
+    background-color: #523FFF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addSkillBtn:hover {
+    opacity: 0.9;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #EDEDF9;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .skill button {
+    background: none;
+    border: none;
+    color: #8484A7;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .skill button:hover {
+    color: #523FFF;
+  }
+  
